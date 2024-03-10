@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: .roboto-thin {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;}
+}
+    
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Reduzido o espaçamento entre o formulário e a lista */
+}
+
+form button {
+    cursor: pointer;
+}
+
+form input {
+    flex: 1; /* Preenchimento flexível para o campo de entrada */
+    font-size: 24px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #000;
+    padding: 8px;
+}
+
+.completo {
+    text-decoration: line-through;
+}
+
+.alerta {                 /* Mensagem de alerta no topo do navegador */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+.tarefas li:hover {
+    cursor: pointer; /* Altera o cursor ao passar sobre as tarefas */
+}
